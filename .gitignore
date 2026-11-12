@@ -4,6 +4,11 @@
 /*
 !/.claude-plugin/
 !/.claude-plugin/**
+# Project-scoped agent skills only; other .claude/ files (local settings) stay out.
+!/.claude/
+/.claude/*
+!/.claude/skills/
+!/.claude/skills/**
 !/hooks/
 !/hooks/**
 !/.github/
